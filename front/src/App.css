@@ -1,0 +1,61 @@
+@import url(./assets/css/bootstrap.min.css);
+@import url(./assets/css/style.css);
+@import url(https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css);
+@import url(./assets/css/all.min.css);
+@import url(./assets/css/animate.min.css);
+@import url(./assets/css/magnific-popup.css);
+@import url(./assets/css/nouislider.min.css);
+@import url(./assets/css/responsive.css);
+
+#logo {
+    width: 80%;
+    height: 80%;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+}
+
+.stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+}
+
+.form-control{
+    background: transparent;
+    border: 1px solid rgba(74, 70, 96, 0.8);
+    color: #fff;
+}
+.form-control:focus{
+    background: transparent;
+    border-color: #999;
+    box-shadow: none;
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+
+.opcion{
+    color: rgb(255, 122, 33);
+    background-color: #0d0e1b
+}
+opcion:hover{
+    color: white;
+    background-color: rgba(74, 70, 96, 0.8)
+}
